@@ -1,0 +1,29 @@
+Name,ShortName,ModeAndPID,Equation,Min Value,Max Value,Units,OBD Header
+Engine Coolant Temp,Coolant Temp,22011D,A-64,-40,120,C,7E0
+Engine Oil Pressure,Oil Press,22022A,A*0.580151,0,200,psi,7E0
+Accelerator Pedal Position,Acc Pedal,22114B,A*100/255,0,100,%,7E0
+Commanded Power,Cmd Power,221997,A*100/255,0,100,%,7E0
+Front Left Wheel Speed,FL Wheel,221737,(256*A+B)*0.017018,0,255,km/h,7E0
+Front Right Wheel Speed,FR Wheel,221738,(256*A+B)*0.017018,0,255,km/h,7E0
+Rear Left Wheel Speed,RL Wheel,221739,(256*A+B)*0.017018,0,255,km/h,7E0
+Rear Right Wheel Speed,RR Wheel,22173A,(256*A+B)*0.017018,0,255,km/h,7E0
+Battery Cooling Inlet Temp,Batt Cool In,22A021,A-50,-50,205,C,7E7
+Battery Cooling Outlet Temp,Batt Cool Out,22A021,C-50,-50,205,C,7E7
+Engine Oil Temp,Engine Oil,212D,H-64,-64,191,C,7E0
+Discharge kW/hours,Discharge kWh,22A001,(65536*J+256*K+L)*0.1,0,1677721.5,kWh,7E7
+Charge kW/hours,Charge kWh,22A001,(65536*M+256*N+O)*0.1,0,1677721.5,kWh,7E7
+HV Battery Current,HV Battery,22A012,(256*SIGNED(A)+B)*0.05,-450,450,A,7E7
+HV Battery Power,HV Battery,22A012,(256*SIGNED(A)+B)*0.018,-450,450,kW,7E7
+BPCM Module Temp Sensor 1,Bat Sensor 1,22A066,A-40,-40,215,C,7E7
+BPCM Module Temp Sensor 2,Bat Sensor 2,22A066,B-40,-40,215,C,7E7
+BPCM Module Temp Sensor 3,Bat Sensor 3,22A066,C-40,-40,215,C,7E7
+BPCM Module Temp Sensor 4,Bat Sensor 4,22A066,D-40,-40,215,C,7E7
+BPCM Module Temp Sensor 5,Bat Sensor 5,22A066,E-40,-40,215,C,7E7
+BPCM Module Temp Sensor 6,Bat Sensor 6,22A066,F-40,-40,215,C,7E7
+BPCM Module Temp Sensor 7,Bat Sensor 7,22A066,G-40,-40,215,C,7E7
+BPCM Module Temp Sensor 8,Bat Sensor 8,22A066,H-40,-40,215,C,7E7
+BPCM Module Temp Sensor 9,Bat Sensor 9,22A066,I-40,-40,215,C,7E7
+BPCM Module Temp Sensor 10,Bat Sensor 10,22A066,J-40,-40,215,C,7E7
+BPCM Module Temp Sensor 11,Bat Sensor 11,22A066,K-40,-40,215,C,7E7
+BPCM Module Temp Sensor 12,Bat Sensor 12,22A066,L-40,-40,215,C,7E7
+Brake Pedal Status,Brake Pedal,222067,A,0,1,status,7E4
